@@ -1,0 +1,39 @@
+{
+  "base_path" : "/Volumes/salesdb/bronze/raw-data",
+  "source_crm":[
+    {
+      "name_of_source":"crm-cust_info",
+      "loc":"/source_crm/cust_info.csv",
+      "bz_table_name":"source_crm_cust_info"
+    },
+    {
+      "name_of_source":"crm-prod_info",
+      "loc":"/source_crm/prod_info.csv",
+      "bz_table_name":"source_crm_prd_info"
+    },
+    {
+      "name_of_source":"crm-sales_details",
+      "loc":"/source_crm/sales_details.csv",
+      "bz_table_name":"source_crm_sales_details"
+    }
+
+  ],
+  "source_erp":[
+    {
+      "name_of_source":"erp-CUST_AZ12",
+      "loc":"/source_erp/CUST_AZ12.csv",
+      "bz_table_name":"source_erp_CUST_AZ12"
+    },
+    {
+      "name_of_source":"erp-LOC_A101",
+      "loc":"/source_erp/LOC_A101.csv",
+      "bz_table_name":"source_erp_LOC_A101"
+    },
+    {
+      "name_of_source":"erp-PX_CAT_G1V2",
+      "loc":"/source_erp/PX_CAT_G1V2.csv",
+      "bz_table_name":"source_erp_PX_CAT_G1V2"
+    }
+  ]
+
+}
