@@ -7,8 +7,8 @@
       "bz_table_name":"source_crm_cust_info"
     },
     {
-      "name_of_source":"crm-prod_info",
-      "loc":"/source_crm/prod_info.csv",
+      "name_of_source":"crm-prd_info",
+      "loc":"/source_crm/prd_info.csv",
       "bz_table_name":"source_crm_prd_info"
     },
     {
